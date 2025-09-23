@@ -39,6 +39,18 @@ jobs:
     - name: Build
       run: npm run build
 
+    - name: Check if build succeeded
+      run: |
+        if [ ! -d "dist" ]; then
+          echo "ERROR: dist directory not found!"
+          exit 1
+        fi
+        if [ ! -f "dist/index.html" ]; then
+          echo "ERROR: dist/index.html not found!"
+          exit 1
+        fi
+        echo "Build appears to have succeeded"
+
     - name: List build output
       run: ls -la dist/
 
