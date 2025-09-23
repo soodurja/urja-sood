@@ -1,0 +1,66 @@
+[
+  {
+    "id": 1,
+    "title": "Cloud Infrastructure and AI Intern",
+    "company": "Aptly Technology Corporation",
+    "type": "Contract Full-time",
+    "location": "Mississauga, Ontario, Canada • Remote",
+    "duration": "May 2025 - Aug 2025 • 4 mos",
+    "description": [
+      "Developed demo projects using Azure microservices, Go, Python, and AI/ML tools, showcasing adaptability and technical curiosity while gaining hands-on experience with enterprise-grade cloud platforms.",
+      "Analyzed and categorized AVS-related incident tickets, identifying automation opportunities that improved efficiency in incident management workflows.",
+      "Trained custom AI models on incident data to perform ticket summarization and recommend resolution steps, advancing automation in issue resolution and enhancing operational effectiveness.",
+      "Documented processes and actively engaged in technical discussions, streamlining knowledge sharing and fostering collaboration within the AVS Automation team."
+    ],
+    "skills": [
+      "Azure Cloud Services",
+      "Azure VMware Solution",
+      "Python (Programming Language)",
+      "Go (Programming Language)",
+      "Machine Learning",
+      "Artificial Intelligence (AI)",
+      "Incident Management Automation",
+      "Model Deployment",
+      "Technical Documentation",
+      "Process Automation",
+      "Cloud Infrastructure",
+      "Data Analysis",
+      "Problem Solving",
+      "Team Collaboration"
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Real Estate Agent Secretary",
+    "company": "Sutton Group",
+    "type": "Casual / On-call",
+    "location": "",
+    "duration": "Oct 2024 - Dec 2024 • 3 mos",
+    "description": [
+      "Coordinated 10+ active property listings and showings, ensuring seamless scheduling and contributing to successful transactions.",
+      "Processed mortgage applications using CRM tools, expediting documentation workflows and reinforcing compliance with financial regulations.",
+      "Communicated with clients daily to gather paperwork and deliver updates, strengthening trust and client-agent relationships."
+    ],
+    "skills": [
+      "Client Communication",
+      "Customer Relationship Management (CRM)"
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Private Math Tutor",
+    "company": "Self-employed",
+    "type": "",
+    "location": "",
+    "duration": "Jun 2021 - Jun 2023 • 2 yrs 1 mo",
+    "description": [
+      "Delivered personalized math instruction tailored to diverse learning styles, driving conceptual mastery and long-term retention across grade levels.",
+      "Designed and implemented custom lesson plans, leading to 100% parent-reported academic improvement and increased student engagement.",
+      "Managed tutoring schedules independently, adapting teaching strategies to meet curriculum requirements and student goals."
+    ],
+    "skills": [
+      "Concept Based Teaching",
+      "Lesson Planning"
+    ]
+  }
+]

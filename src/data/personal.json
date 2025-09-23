@@ -1,0 +1,27 @@
+{
+  "name": "Urja Sood",
+  "title": "Computer Science Specialist @ University of Toronto",
+  "subtitle": "Seeking Co-op Internship Roles (2026)",
+  "location": "Mississauga, ON, Canada",
+  "email": "urja.sood@mail.utoronto.ca",
+  "phone": "(236)-996-2600",
+  "linkedin": "https://www.linkedin.com/in/urja-sood/",
+  "github": "https://github.com/soodurja",
+  "bio": "I am Urja Sood, a third-year Computer Science Specialist at the University of Toronto with a minor in Business, Science, and Entrepreneurship. My journey so far has been about exploring both sides of the equation: the elegance of code and the strategy that turns technology into real-world solutions. I have built skills across Python, Java, C, Go, and RISC-V Assembly, while also diving into systems programming, AI/ML, and cloud technologies like Azure. I thrive on tackling technical challenges that demand both precision and creativity. I enjoy thinking not just about how to build, but also why the things I create should make processes smarter, businesses more efficient, and people's lives easier. I am always looking for opportunities where I can grow, collaborate with curious and ambitious people, and contribute to building something impactful. If you are working on projects that sit at the crossroads of technology, strategy, and innovation, I would love to connect.",
+  "summary": "Driven Computer Science student at the University of Toronto minoring in Business, Science, and Entrepreneurship. Passionate about software development, system design, and leveraging technology to create user-focused, innovative solutions. Skilled in problem-solving, efficient system design, and aligning technical work with business goals. Dean's List scholar committed to contributing to high-impact, collaborative projects.",
+  "skills": [
+    "Python (Programming Language)",
+    "Machine Learning",
+    "Artificial Intelligence (AI)",
+    "Software Development",
+    "Data Structures and Analysis",
+    "Java",
+    "C (Programming Language)",
+    "Go",
+    "RISC-V Assembly",
+    "Azure Cloud Services",
+    "Git",
+    "Systems Programming",
+    "Object-Oriented Programming (OOP)"
+  ]
+}

@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1,
+    "title": "Volunteer",
+    "organization": "Elim Village",
+    "duration": "Sep 2021 - Aug 2022",
+    "description": "150+ hours; recreation/wellness support for older adults; improved communication and empathy."
+  },
+  {
+    "id": 2,
+    "title": "Surrey Youth Stewardship Squad",
+    "organization": "City of Surrey",
+    "duration": "Jun 2020 - Jun 2023",
+    "description": "Tree/shrub planting, invasive species removal, habitat restoration; teamwork and leadership."
+  },
+  {
+    "id": 3,
+    "title": "Team Leader",
+    "organization": "Rotary District 5050 YAIL",
+    "duration": "Jun 2022",
+    "description": "Led leadership camp team; teamwork, service-oriented leadership, personal growth."
+  }
+]

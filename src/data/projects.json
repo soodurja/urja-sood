@@ -1,0 +1,178 @@
+[
+  {
+    "id": 1,
+    "title": "ICM AI Incident Assistant (POC)",
+    "date": "Jul 2025 - Aug 2025",
+    "organization": "Aptly Technology Corporation",
+    "description": "I built an AI Incident Management Assistant (POC) that acts as a chatbot to streamline incident workflows. It can understand ticket descriptions, classify them into categories with confidence scores, recommend resolution steps, and even count incidents by type. The system was powered by custom scikit-learn models with TF-IDF vectorization and delivered through both a command-line interface and a Streamlit-based chatbot, showcasing how AI can make incident management more efficient and user-friendly.",
+    "skills": [
+      "Python (Programming Language)",
+      "Machine Learning",
+      "Natural Language Processing (NLP)",
+      "Scikit-Learn",
+      "TF-IDF Vectorization",
+      "Streamlit",
+      "Incident Management Automation",
+      "Model Deployment"
+    ],
+    "github": "https://github.com/soodurja/ai-integration-incident-assistant-poc",
+    "demo": null,
+    "type": "AI/ML"
+  },
+  {
+    "id": 2,
+    "title": "GO CLI Bill Generator",
+    "date": "Jun 2025 - Jun 2025",
+    "organization": "",
+    "description": "Built a beginner-friendly command-line application in Go that generates and manages simple bills for cafes, restaurants, or small businesses. The program supports creating bills, adding line items, and saving formatted text receipts, all while reinforcing core concepts of Go such as structs, slices, maps, pointers, and file I/O. This project highlights my ability to translate theoretical learning into a practical, real-world tool with clean code organization and reusable components.",
+    "skills": [
+      "Go Programming (Golang)",
+      "CLI",
+      "File I/O and Data Persistence",
+      "Structs, Slices and Maps",
+      "Pointers and Memory Management",
+      "Error Handling and Input Validation",
+      "Modular Code Design",
+      "Problem Solving",
+      "Clean Code Practices"
+    ],
+    "github": "https://github.com/soodurja/go-cli-bill-generator",
+    "demo": null,
+    "type": "CLI Application"
+  },
+  {
+    "id": 3,
+    "title": "Custom Shell Development (C, Unix)",
+    "date": "Jan 2025 - Apr 2025",
+    "organization": "University of Toronto",
+    "description": "Building a Unix-like command-line shell in C with support for built-in commands, external process execution, and multi-argument parsing. Designed a custom command parser and implemented key systems-level features such as process forking (fork/exec), background execution, and signal handling. Engineered a dynamic array for flexible variable management and optimized memory handling to prevent leaks using tools like Valgrind and GDB.",
+    "skills": [
+      "C",
+      "Unix",
+      "Process Management",
+      "Memory Optimization",
+      "GDB",
+      "Valgrind",
+      "Git",
+      "Bash"
+    ],
+    "github": null,
+    "demo": null,
+    "type": "Systems Programming"
+  },
+  {
+    "id": 4,
+    "title": "IoT-Based Plant Monitoring System using ESP32",
+    "date": "Mar 2025 - Mar 2025",
+    "organization": "University of Toronto",
+    "description": "Designed and built an IoT-based plant monitoring system using an ESP32 microcontroller to track and maintain optimal plant health during a robotics hackathon. Integrated DHT11 and capacitive soil moisture sensors to collect real-time data on temperature, humidity, and soil moisture levels, with automated email alerts triggered when moisture dropped below thresholds. Developed a web-based dashboard using HTML, CSS, and JavaScript for live moisture progress bar, theme customization, and a downloadable log of the last 10 sensor readings. Enabled remote monitoring through an ESP32-hosted Wi-Fi web server and incorporated a TFT LCD display for real-time local feedback. The system emphasized modular design, user interaction, and practical automation using SMTP protocol for alert delivery.",
+    "skills": [
+      "ESP32",
+      "DHT11",
+      "Capacitive Moisture Sensor",
+      "TFT Display",
+      "Arduino IDE",
+      "Wi-Fi Communication",
+      "IoT Systems",
+      "Internet of Things (IoT)"
+    ],
+    "github": "https://github.com/ArinGlitch/Plant-Monitoring-System",
+    "demo": "https://wallyhacks2025.devpost.com/",
+    "type": "IoT"
+  },
+  {
+    "id": 5,
+    "title": "AI-Integrated Paint Application",
+    "date": "Sep 2024 - Dec 2024",
+    "organization": "University of Toronto",
+    "description": "Collaborated in a Scrum-based team to design and develop a modular paint application using Java and JavaFX. Implemented interactive shape tools (circles, squares, ovals, polylines), undo/redo functionality using the Command Pattern, and dynamic file export in PNG and a custom paint file format. Integrated the Ollama AI API to generate drawable content from text input, parsing structured files via a finite state machine. Applied key software design patterns (MVC, Factory, Observer-Observable, Strategy) to ensure a scalable, maintainable architecture, and managed team workflows with Git and Agile methodologies.",
+    "skills": [
+      "Java",
+      "JavaFX",
+      "Software Design Patterns",
+      "API Integration",
+      "Git",
+      "Agile Methodologies",
+      "Scrum",
+      "Object-Oriented Programming (OOP)",
+      "GUI development",
+      "Ollama AI API"
+    ],
+    "github": null,
+    "demo": null,
+    "type": "GUI Application"
+  },
+  {
+    "id": 6,
+    "title": "Othello Game",
+    "date": "Sep 2024 - Dec 2024",
+    "organization": "University of Toronto",
+    "description": "Designed and implemented a two-player Othello game in Java, featuring Human vs. Human and Human vs. AI modes. Integrated Greedy and Random AI strategies to evaluate optimal move selection and implemented modular, object-oriented architecture using inheritance, abstraction, and interfaces. Developed robust core logic for move validation, execution, and game state evaluation, supported by comprehensive JUnit test coverage. Conducted comparative analysis of AI strategy performance and utilized Git and Maven for project management and version control.",
+    "skills": [
+      "Java",
+      "Object-Oriented Programming (OOP)",
+      "Game Strategies",
+      "JUnit",
+      "Git",
+      "Game Logic Design",
+      "Software Design"
+    ],
+    "github": null,
+    "demo": null,
+    "type": "Game Development"
+  },
+  {
+    "id": 7,
+    "title": "Sokoban Game Implementation",
+    "date": "Sep 2024 - Dec 2024",
+    "organization": "University of Toronto",
+    "description": "Developed a fully functional Sokoban puzzle game from scratch using 32-bit RISC-V assembly language. Implemented multiple gameplay modes including single-player, multiplayer with a dynamic leaderboard, and a hidden cheats mode featuring unlimited undo, teleportation portals, and instant win. Designed efficient control logic for real-time movement, collision detection, and state tracking within a memory-constrained environment. Created an in-depth user manual to support gameplay and enhanced user experience.",
+    "skills": [
+      "RISC-V Assembly",
+      "Systems Programming",
+      "Game Logic Design",
+      "Debugging Code",
+      "Performance Optimization",
+      "Low Level Programming"
+    ],
+    "github": null,
+    "demo": null,
+    "type": "Assembly Programming"
+  },
+  {
+    "id": 8,
+    "title": "MewbileTech Phone Company",
+    "date": "Jan 2024 - Apr 2024",
+    "organization": "University of Toronto",
+    "description": "Developed a Python 3-based telecommunications billing system simulating a real-world phone company. The project featured object-oriented architecture to manage customer profiles, subscription plans (Prepaid, Term, and Month-to-Month), and call records. Implemented dynamic billing logic with contract-specific rules and integrated data filtering by usage such as duration, location, and customer ID. Leveraged Pygame for interactive visualization of communication activity on a Toronto city map, and JSON for structured data storage. Strengthened proficiency in modular design, data structures, and abstraction through the design of reusable, maintainable code components.",
+    "skills": [
+      "Python (Programming Language)",
+      "Object-Oriented Programming (OOP)",
+      "Data Structures",
+      "Pygame",
+      "JSON",
+      "Software Design"
+    ],
+    "github": null,
+    "demo": null,
+    "type": "Software Development"
+  },
+  {
+    "id": 9,
+    "title": "TreeMap Visualizer",
+    "date": "Jan 2024 - Apr 2024",
+    "organization": "University of Toronto",
+    "description": "Designed and developed an interactive Python application to visualize hierarchical data structures, such as file systems, using the treemap algorithm. Leveraged object-oriented programming and recursive methods to dynamically partition and scale directory contents based on file size. Integrated PyGame for real-time rendering, enabling users to expand, collapse, and explore directories with interactive controls. Focused on modular, extensible design through abstract data representations, enhancing reusability across different hierarchical datasets.",
+    "skills": [
+      "Python (Programming Language)",
+      "Recursive Algorithms",
+      "Object-Oriented Programming (OOP)",
+      "Pygame",
+      "Data Visualization",
+      "GUI development"
+    ],
+    "github": null,
+    "demo": null,
+    "type": "Data Visualization"
+  }
+]

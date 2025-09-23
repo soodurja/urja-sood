@@ -1,0 +1,43 @@
+[
+  {
+    "id": 1,
+    "institution": "University of Toronto",
+    "degree": "Honours Bachelor of Science, HBSc - Computer Science Specialist with Minor in Business, Science and Entrepreneurship",
+    "duration": "2023 - 2028",
+    "gpa": "3.75/4.00 CGPA",
+    "activities": "University of Toronto's Women Cricket Team",
+    "skills": [
+      "Data Structures",
+      "Scrum",
+      "Theory of Computation",
+      "Collaborative Problem Solving",
+      "Java",
+      "RISC-V",
+      "Calculus",
+      "Agile Methodologies",
+      "Debugging Code",
+      "Python (Programming Language)",
+      "C (Programming Language)",
+      "Assembly Language",
+      "Object-Oriented Programming (OOP)",
+      "JavaFX",
+      "Git",
+      "Software Development",
+      "Microeconomics",
+      "Probability Theory",
+      "Linear Algebra",
+      "Academic Writing",
+      "Software Design Patterns",
+      "Data Structures and Analysis"
+    ]
+  },
+  {
+    "id": 2,
+    "institution": "Fleetwood Park Secondary School",
+    "degree": "",
+    "duration": "Nov 2020 - Jun 2023",
+    "gpa": "10-12",
+    "activities": "Made it to A Honour's Roll for all three consecutive years. Recognized for Excellent Performance in PreCalculus 11, 12 and Spanish 11. Stood First in Poetry and Second in Prose in Fleetwood Park's Writing Competition. Student Council | Operation Smile | Peer Tutor",
+    "skills": []
+  }
+]

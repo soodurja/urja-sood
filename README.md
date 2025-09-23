@@ -1,73 +1,161 @@
-# Welcome to your Lovable project
+# Urja Sood - Personal Portfolio
 
-## Project info
+A modern, responsive portfolio website built with React, TypeScript, and Tailwind CSS. Features a dark theme with purple/pink accents and showcases my experience, projects, and skills as a Computer Science student at the University of Toronto.
 
-**URL**: https://lovable.dev/projects/40509080-6c77-42e8-b9f2-fb414fefec12
+## 🚀 Live Demo
 
-## How can I edit this code?
+Visit the live portfolio: [https://soodurja.github.io/urja-portfolio/](https://soodurja.github.io/urja-portfolio/)
 
-There are several ways of editing your application.
+## ✨ Features
 
-**Use Lovable**
+- **Modern Design**: Dark theme with purple/pink gradient accents
+- **Responsive**: Fully responsive design that works on all devices
+- **Fast Loading**: Built with Vite for optimal performance
+- **SEO Optimized**: Proper meta tags and semantic HTML
+- **Interactive**: Smooth animations and hover effects
+- **Accessible**: WCAG compliant design with proper contrast ratios
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/40509080-6c77-42e8-b9f2-fb414fefec12) and start prompting.
+## 🛠️ Tech Stack
 
-Changes made via Lovable will be committed automatically to this repo.
+- **React 18** - Modern React with hooks
+- **TypeScript** - Type-safe development
+- **Vite** - Fast build tool and dev server
+- **Tailwind CSS** - Utility-first CSS framework
+- **shadcn/ui** - High-quality UI components
+- **Lucide React** - Beautiful SVG icons
+- **React Router** - Client-side routing
 
-**Use your preferred IDE**
+## 📱 Sections
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+- **Home**: Hero section with contact information and quick skills
+- **About**: Detailed bio and technical skills breakdown
+- **Experience**: Professional experience timeline
+- **Projects**: Portfolio of technical projects with GitHub links
+- **Education**: Academic background and achievements
+- **Volunteering**: Community service and leadership experience
+- **Contact**: Contact form and social links
+- **Resume**: Downloadable PDF resume
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+## 🚀 Deployment to GitHub Pages
 
-Follow these steps:
+This project is configured for automatic deployment to GitHub Pages using GitHub Actions.
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
+### Setup Instructions:
+
+1. **Fork or clone this repository**
+2. **Update the base path** in `vite.config.ts`:
+   ```ts
+   export default defineConfig({
+     base: '/your-repo-name/',
+     // ... rest of config
+   });
+   ```
+3. **Enable GitHub Pages**:
+   - Go to repository Settings
+   - Navigate to Pages section
+   - Select "GitHub Actions" as the source
+4. **Push to main branch** - The GitHub Action will automatically build and deploy
+
+### Manual Deployment:
+
+```bash
+# Build the project
+npm run build
+
+# Deploy to gh-pages branch (if using gh-pages package)
+npm run deploy
+```
+
+## 🧑‍💻 Local Development
+
+### Prerequisites
+
+- Node.js 18+ and npm installed
+- [Install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+
+### Setup
+
+```bash
+# Clone the repository
 git clone <YOUR_GIT_URL>
+cd urja-portfolio
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+# Install dependencies
+npm install
 
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
+# Start development server
 npm run dev
 ```
 
-**Edit a file directly in GitHub**
+The app will be available at `http://localhost:8080`
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+### Available Scripts
 
-**Use GitHub Codespaces**
+```bash
+npm run dev          # Start development server
+npm run build        # Build for production
+npm run preview      # Preview production build locally
+npm run lint         # Run ESLint
+```
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+## 🎨 Customization
 
-## What technologies are used for this project?
+### Colors and Theme
 
-This project is built with:
+The design system is defined in `src/index.css` with CSS custom properties:
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+```css
+:root {
+  --purple: 280 100% 70%;
+  --pink: 310 100% 65%;
+  --gradient-primary: linear-gradient(135deg, hsl(var(--purple)), hsl(var(--pink)));
+  /* ... more variables */
+}
+```
 
-## How can I deploy this project?
+### Content
 
-Simply open [Lovable](https://lovable.dev/projects/40509080-6c77-42e8-b9f2-fb414fefec12) and click on Share -> Publish.
+All content is stored in JSON files in `src/data/`:
+- `personal.json` - Personal information and bio
+- `experience.json` - Work experience
+- `projects.json` - Technical projects
+- `education.json` - Educational background
+- `volunteering.json` - Community service
 
-## Can I connect a custom domain to my Lovable project?
+## 📂 Project Structure
 
-Yes, you can!
+```
+src/
+├── components/           # Reusable UI components
+│   ├── ui/              # shadcn/ui components
+│   ├── Layout.tsx       # Main layout wrapper
+│   └── Navbar.tsx       # Navigation component
+├── data/                # JSON data files
+├── pages/               # Page components
+├── assets/              # Images and static files
+├── hooks/               # Custom React hooks
+└── lib/                 # Utility functions
+```
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+## 🤝 Contributing
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+1. Fork the project
+2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
+
+## 📝 License
+
+This project is open source and available under the [MIT License](LICENSE).
+
+## 📞 Contact
+
+**Urja Sood**
+- Email: urja.sood@mail.utoronto.ca
+- LinkedIn: [linkedin.com/in/urja-sood](https://www.linkedin.com/in/urja-sood/)
+- GitHub: [github.com/soodurja](https://github.com/soodurja)
+
+---
+
+⭐ If you found this portfolio helpful, please give it a star!
