@@ -64,6 +64,17 @@ jobs:
         else
           echo "❌ Base path /urja-sood/ NOT found in HTML"
           echo "This is likely the cause of the 404 error"
+          exit 1
+        fi
+
+    - name: Check if HTML references built assets (not source files)
+      run: |
+        if grep -q "src/main.tsx" dist/index.html; then
+          echo "❌ ERROR: HTML still references source TypeScript file!"
+          echo "This means the build process is not working correctly"
+          exit 1
+        else
+          echo "✅ HTML references built assets correctly"
         fi
 
     - name: Create 404.html for SPA routing
