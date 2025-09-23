@@ -57,6 +57,21 @@ jobs:
     - name: Check built HTML
       run: cat dist/index.html
 
+    - name: Check if base path is applied in HTML
+      run: |
+        if grep -q "/urja-sood/" dist/index.html; then
+          echo "✅ Base path /urja-sood/ found in HTML"
+        else
+          echo "❌ Base path /urja-sood/ NOT found in HTML"
+          echo "This is likely the cause of the 404 error"
+        fi
+
+    - name: Create 404.html for SPA routing
+      run: cp dist/index.html dist/404.html
+
+    - name: Verify 404.html was created
+      run: ls -la dist/404.html
+
     - name: Setup Pages
       uses: actions/configure-pages@v4
 
