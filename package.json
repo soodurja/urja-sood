@@ -3,7 +3,6 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://soodurja.github.io/urja-sood",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
